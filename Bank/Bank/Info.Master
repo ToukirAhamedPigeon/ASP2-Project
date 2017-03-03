@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Info.master.cs" Inherits="Bank.Info" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Info</title>
+    <link href="CSS/PigeonStyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="mid" style="width:800px">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <h1 class="mid">Info</h1>
+        <br />
+        <Pigeon:HomeBtn runat="server" ID="HomeBtn"/>
+        <Pigeon:CommonBtns runat="server" ID="CommonBtn"/>
+        <br />
+        <Pigeon:PerInfo runat="server" ID="PerInfo"/>
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+    </div>
+    </form>
+</body>
+</html>

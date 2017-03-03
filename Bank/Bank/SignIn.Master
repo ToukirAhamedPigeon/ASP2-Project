@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SignIn.Master.cs" Inherits="Bank.SignIn" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Log In</title>
+    <link href="CSS/PigeonStyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="mid">
+        <table class="mid">
+            <tr class="mid">
+                 <td>
+                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                     </asp:ContentPlaceHolder>
+                </td>
+                <td>
+                     <h1>Log In</h1>
+                </td>
+                <td>
+                   <Pigeon:HomeBtn runat="server" ID="HomeBtn"/>
+                </td>
+            </tr>
+            <br />
+        </table>
+            <table>
+                <tr>
+                    <td>
+                        <asp:Label ID="LabelAccNo" runat="server" Text="ID "></asp:Label>
+                    </td>
+                    <td>
+                        <asp:TextBox ID="TextBoxAccNo" placeholder="Give your Account ID" runat="server"></asp:TextBox>
+                    </td>
+                </tr>    
+                 <tr>
+                    <td>
+                        <asp:Label ID="LabelPass" runat="server" Text="Password "></asp:Label>
+                    </td>
+                    <td>
+                        <asp:TextBox ID="TextBoxPass" placeholder="Give Password" runat="server"></asp:TextBox>
+                    </td>
+                </tr>  
+                <tr>
+                    <td>
+                          <asp:HyperLink ID="HyperLinkForgot" runat="server">Forgot Password??</asp:HyperLink>
+                    </td>
+                    <td>
+                        <asp:ImageButton ID="ImageButtonSignIn" runat="server" ImageUrl="~/Images/LoginBtn.png" OnClick="ImageButtonSignIn_Click" />
+                    </td>
+                </tr> 
+            </table>
+       
+    </div>
+    </form>
+</body>
+</html>

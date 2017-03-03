@@ -1,0 +1,5 @@
+C:\Users\touki\Desktop\Education\Bank\Bank\bin\Bank.dll
+C:\Users\touki\Desktop\Education\Bank\Bank\bin\Bank.pdb
+C:\Users\touki\Desktop\Education\Bank\Bank\obj\Debug\Bank.csprojResolveAssemblyReference.cache
+C:\Users\touki\Desktop\Education\Bank\Bank\obj\Debug\Bank.dll
+C:\Users\touki\Desktop\Education\Bank\Bank\obj\Debug\Bank.pdb
