@@ -60,7 +60,6 @@
     <Content Include="CSS\PigeonStyle.css" />
     <Content Include="CustomControls\CommonBtns.ascx" />
     <Content Include="CustomControls\HomeBtn.ascx" />
-    <Content Include="CustomControls\PersonalInfo.ascx" />
     <Content Include="Home.aspx" />
     <Content Include="Images\HomeBtn.png" />
     <Content Include="Images\LoginBtn.png" />
@@ -72,6 +71,9 @@
     <Content Include="AdminInfo.aspx" />
     <Content Include="EmployeeInfo.aspx" />
     <Content Include="CustomerInfo.aspx" />
+    <Content Include="CustomerSearchInfo.aspx" />
+    <Content Include="EmployeeSearchInfo.aspx" />
+    <Content Include="AdminSearchInfo.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomControls\CommonBtns.ascx.cs">
@@ -87,13 +89,6 @@
     </Compile>
     <Compile Include="CustomControls\HomeBtn.ascx.designer.cs">
       <DependentUpon>HomeBtn.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\PersonalInfo.ascx.cs">
-      <DependentUpon>PersonalInfo.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CustomControls\PersonalInfo.ascx.designer.cs">
-      <DependentUpon>PersonalInfo.ascx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
@@ -158,6 +153,27 @@
     </Compile>
     <Compile Include="CustomerInfo.aspx.designer.cs">
       <DependentUpon>CustomerInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerSearchInfo.aspx.cs">
+      <DependentUpon>CustomerSearchInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerSearchInfo.aspx.designer.cs">
+      <DependentUpon>CustomerSearchInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeSearchInfo.aspx.cs">
+      <DependentUpon>EmployeeSearchInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeSearchInfo.aspx.designer.cs">
+      <DependentUpon>EmployeeSearchInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSearchInfo.aspx.cs">
+      <DependentUpon>AdminSearchInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSearchInfo.aspx.designer.cs">
+      <DependentUpon>AdminSearchInfo.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

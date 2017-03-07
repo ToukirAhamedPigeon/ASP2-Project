@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Bank.CustomControls
+namespace Bank
 {
-    public partial class PersonalInfo : System.Web.UI.UserControl
+    public partial class WebForm8 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

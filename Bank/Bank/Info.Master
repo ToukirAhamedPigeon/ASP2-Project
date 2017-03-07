@@ -16,15 +16,92 @@
         
         </asp:ContentPlaceHolder>
         <h1 class="mid">Info</h1>
-        <br />
         <Pigeon:HomeBtn runat="server" ID="HomeBtn"/>
         <Pigeon:CommonBtns runat="server" ID="CommonBtn"/>
         <br />
-        <Pigeon:PerInfo runat="server" ID="PerInfo"/>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <table>
+            <tr>
+                <td>
+                    <asp:Label ID="Label1" runat="server" Text="ID: "></asp:Label>
+                </td>
+                 <td>
+                      <asp:Label ID="LabelID" runat="server"></asp:Label><br />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                     <asp:Label ID="Label3" runat="server" Text="Name: "></asp:Label>
+                </td>
+                 <td>
+                      <asp:Label ID="LabelName" runat="server"></asp:Label><br />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                     <asp:Label ID="Label5" runat="server" Text="Date Of Birth: "></asp:Label>
+                </td>
+                 <td>
+                       <asp:Label ID="LabelDob" runat="server" Text="Label"></asp:Label><br />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                     <asp:Label ID="Label7" runat="server" Text="Address: "></asp:Label>
+                </td>
+                 <td>
+                       <asp:Label ID="LabelAddress" runat="server" Text="Label"></asp:Label><br />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <asp:Label ID="Label2" runat="server" Text="National ID: "></asp:Label>
+                </td>
+                 <td>
+                      <asp:Label ID="LabelNID" runat="server" Text="Label"></asp:Label>
+                </td>
+                  <td>
+                       <asp:Label ID="LabelNIDType" runat="server" Text="Label" BackColor="#0066FF" ForeColor="White"></asp:Label><br />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                     <asp:Label ID="Label9" runat="server" Text="Phone: "></asp:Label>
+                </td>
+                 <td>
+                      <asp:Label ID="LabelPhone" runat="server" Text="Label"></asp:Label><br />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                      <asp:Label ID="Label11" runat="server" Text="Email: "></asp:Label>
+                </td>
+                 <td>
+                      <asp:Label ID="LabelEmail" runat="server" Text="Label"></asp:Label><br />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                     <asp:Label ID="Label13" runat="server" Text="Join: "></asp:Label>
+                </td>
+                 <td>
+                      <asp:Label ID="LabelJoin" runat="server" Text="Label"></asp:Label><br />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <asp:Label ID="Label15" runat="server" Text="Leave: "></asp:Label>
+                </td>
+                 <td>
+                      <asp:Label ID="LabelLeave" runat="server" Text="Label"></asp:Label><br />
+                </td>
+            </tr>
+        </table>
          <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
         
         </asp:ContentPlaceHolder>
-
     </div>
     </form>
 </body>
