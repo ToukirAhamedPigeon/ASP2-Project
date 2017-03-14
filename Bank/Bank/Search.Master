@@ -14,6 +14,43 @@
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
+        <Pigeon:HomeBtn runat="server" ID="HomeBtn"/>
+        <Pigeon:CommonBtns runat="server" ID="CommonBtn"/>
+        <br />
+        <table>
+            <tr>
+                <td>
+                    <asp:Label ID="Label1" runat="server" Text="Search Customer"></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="TextBoxSearchCust" runat="server"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+               <td>
+                   <asp:GridView ID="GridViewCust" runat="server"></asp:GridView>
+               </td>
+            </tr>  
+            </table>
+       
+        <table> 
+            <tr>
+                <td>
+                    <asp:Label ID="Label3" runat="server" Text="Search Admin"></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="TextBoxSearchAdmin" runat="server"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+               <td>
+                   <asp:GridView ID="GridViewAdmin" runat="server"></asp:GridView>
+               </td>
+            </tr>   
+        </table>
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
     </div>
     </form>
 </body>

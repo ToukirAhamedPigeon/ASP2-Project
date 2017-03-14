@@ -18,6 +18,13 @@
         <asp:ListItem>Employee</asp:ListItem>
         <asp:ListItem>Admin</asp:ListItem>
         </asp:DropDownList>
+        <table>
+            <tr>
+                <td>
+                    <asp:Image ID="ImageBank" runat="server" Height="450 px" Width="800 px" ImageUrl="~/Images/request-a-sample--547-p.jpg" />
+                </td>
+            </tr>
+        </table>
     </div>
     </form>
 </body>

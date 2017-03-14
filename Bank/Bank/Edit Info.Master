@@ -14,6 +14,111 @@
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
+        <Pigeon:HomeBtn runat="server" ID="HomeBtn"/>
+        <Pigeon:CommonBtns runat="server" ID="CommonBtn"/>
+        <br />
+        <table>
+            <tr>
+                <td>
+                    <asp:Label ID="Label1" runat="server" Text="A/C: "></asp:Label>
+                </td>
+                <td>
+                    <asp:Label ID="LabelACNO" runat="server" Text="Label"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="Label2" runat="server" Text="Name: "></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="TextBoxName" runat="server"></asp:TextBox>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <asp:Label ID="Label3" runat="server" Text="DOB: "></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="TextBoxDOB" runat="server"></asp:TextBox>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <asp:Label ID="Label4" runat="server" Text="Age: "></asp:Label>
+                </td>
+                <td>
+                    <asp:Label ID="LabelAge" runat="server" Text="Label"></asp:Label>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <asp:Label ID="Label5" runat="server" Text="Gender: "></asp:Label>
+                </td>
+                <td>
+                    <asp:RadioButtonList ID="RadioButtonListGender" runat="server" OnSelectedIndexChanged="RadioButtonList1_SelectedIndexChanged">
+                        <asp:ListItem>Female</asp:ListItem>
+                        <asp:ListItem>Male</asp:ListItem>
+                        <asp:ListItem>Other</asp:ListItem>
+                    </asp:RadioButtonList>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="Label7" runat="server" Text="NID Type: "></asp:Label>
+                </td>
+                <td>
+                    <asp:RadioButtonList ID="RadioButtonListNIDType" runat="server">
+                        <asp:ListItem>NID</asp:ListItem>
+                        <asp:ListItem>Passport</asp:ListItem>
+                        <asp:ListItem>Birth ID</asp:ListItem>
+                    </asp:RadioButtonList>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <asp:Label ID="Label6" runat="server" Text="National ID NO: "></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="TextBoxNIDNo" runat="server"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="Label9" runat="server" Text="Phone: "></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="TextBoxPhone" runat="server"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="Label12" runat="server" Text="Address: "></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="TextBoxAddress" runat="server"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="Label10" runat="server" Text="Email: "></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="TextBoxEmail" runat="server"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="Label11" runat="server" Text="Change Profile Picture: "></asp:Label>
+                </td>
+                <td>
+                    <asp:FileUpload ID="FileUploadProPic" runat="server" />
+                </td>
+            </tr>
+            </table>
+      
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
     </div>
     </form>
 </body>

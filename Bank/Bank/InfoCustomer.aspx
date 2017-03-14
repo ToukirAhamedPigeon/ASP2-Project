@@ -55,4 +55,68 @@
             </td>
         </tr>
     </table>
+    <br />
+    <h3>Nominy</h3>
+    <asp:Image ID="ImageNomProPic" runat="server" Height="150px" Width="150px" ImageUrl="~/Images/profile-placeholder.png" />
+          <table>
+             <tr>
+                <td>
+                     <asp:Label ID="Label3" runat="server" Text="Nominy Name: "></asp:Label>
+                </td>
+                 <td>
+                      <asp:Label ID="LabelNomName" runat="server"></asp:Label><br />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                     <asp:Label ID="Label5" runat="server" Text="Nominy Date Of Birth: "></asp:Label>
+                </td>
+                 <td>
+                       <asp:Label ID="LabelNomDob" runat="server" Text="Label"></asp:Label><br />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                     <asp:Label ID="Label7" runat="server" Text="Nominy Address: "></asp:Label>
+                </td>
+                 <td>
+                       <asp:Label ID="LabelNomAddress" runat="server" Text="Label"></asp:Label><br />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <asp:Label ID="Label2" runat="server" Text="Nominy National ID: "></asp:Label>
+                </td>
+                 <td>
+                      <asp:Label ID="LabelNomNID" runat="server" Text="Label"></asp:Label>
+                </td>
+                  <td>
+                       <asp:Label ID="LabelNomNIDType" runat="server" Text="Label" BackColor="#0066FF" ForeColor="White"></asp:Label><br />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                     <asp:Label ID="Label9" runat="server" Text="Nominy Phone: "></asp:Label>
+                </td>
+                 <td>
+                      <asp:Label ID="LabelNomPhone" runat="server" Text="Label"></asp:Label><br />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                      <asp:Label ID="Label11" runat="server" Text="Nominy Email: "></asp:Label>
+                </td>
+                 <td>
+                      <asp:Label ID="LabelNomEmail" runat="server" Text="Label"></asp:Label><br />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                     <asp:Label ID="Label13" runat="server" Text="Nominy Join: "></asp:Label>
+                </td>
+                 <td>
+                      <asp:Label ID="LabelNomJoin" runat="server" Text="Label"></asp:Label><br />
+                </td>
+            </tr>
+        </table>
 </asp:Content>

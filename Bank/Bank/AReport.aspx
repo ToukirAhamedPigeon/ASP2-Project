@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Report.aspx.cs" Inherits="Bank.Report" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AReport.aspx.cs" Inherits="Bank.Report" %>
 
 <!DOCTYPE html>
 
@@ -9,7 +9,11 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
+    <h1>Result</h1>
+        <Pigeon:HomeBtn runat="server" ID="HomeBtn"/>
+        <Pigeon:CommonBtns runat="server" ID="CommonBtn"/>
+        <br />
+        <asp:GridView ID="GridViewResult" runat="server"></asp:GridView>
     </div>
     </form>
 </body>

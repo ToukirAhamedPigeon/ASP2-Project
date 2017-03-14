@@ -11,7 +11,40 @@
 <body>
     <form id="form1" runat="server">
     <div>
+        <h1>DELETE</h1>
+        <Pigeon:HomeBtn runat="server" ID="HomeBtn"/>
+        <Pigeon:CommonBtns runat="server" ID="CommonBtn"/>
+        <br />
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <table>
+            <tr>
+                <td>
+                    <asp:Label ID="Label1" runat="server" Text="A/C: "></asp:Label>
+                </td>
+                <td>
+                    <asp:Label ID="LabelACNO" runat="server" Text="Label"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="Label2" runat="server" Text="Name: "></asp:Label>
+                </td>
+                <td>
+                    <asp:Label ID="LabelName" runat="server" Text="Label"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="Label3" runat="server" Text="Position: "></asp:Label>
+                </td>
+                <td>
+                    <asp:Label ID="LabelPos" runat="server" Text="Label"></asp:Label>
+                </td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
         
         </asp:ContentPlaceHolder>
     </div>

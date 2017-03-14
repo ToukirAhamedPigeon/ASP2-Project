@@ -13,5 +13,10 @@ namespace Bank
         {
 
         }
+
+        protected void RadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

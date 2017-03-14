@@ -57,25 +57,77 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ABank Status.aspx" />
+    <Content Include="Aloanaccept.aspx" />
+    <Content Include="AloanReq.aspx" />
     <Content Include="CSS\PigeonStyle.css" />
     <Content Include="CustomControls\CommonBtns.ascx" />
     <Content Include="CustomControls\HomeBtn.ascx" />
-    <Content Include="Home.aspx" />
+    <Content Include="AEdit Bank Status.aspx" />
+    <Content Include="AHome.aspx" />
     <Content Include="Images\HomeBtn.png" />
     <Content Include="Images\LoginBtn.png" />
     <Content Include="Images\profile-placeholder.png" />
+    <Content Include="AReport.aspx" />
+    <Content Include="ATransfer.aspx" />
+    <Content Include="Images\request-a-sample--547-p.jpg" />
     <Content Include="Web.config" />
-    <Content Include="CustomerLogIn.aspx" />
-    <Content Include="EmployeeLogIn.aspx" />
-    <Content Include="AdminLogIn.aspx" />
-    <Content Include="AdminInfo.aspx" />
-    <Content Include="EmployeeInfo.aspx" />
-    <Content Include="CustomerInfo.aspx" />
-    <Content Include="CustomerSearchInfo.aspx" />
-    <Content Include="EmployeeSearchInfo.aspx" />
-    <Content Include="AdminSearchInfo.aspx" />
+    <Content Include="SignInCustomer.aspx" />
+    <Content Include="SignInEmployee.aspx" />
+    <Content Include="SignInAdmin.aspx" />
+    <Content Include="InfoAdmin.aspx" />
+    <Content Include="InfoEmployee.aspx" />
+    <Content Include="InfoCustomer.aspx" />
+    <Content Include="InfoSearchCustomer.aspx" />
+    <Content Include="InfoSearchEmployee.aspx" />
+    <Content Include="InfoSearchAdmin.aspx" />
+    <Content Include="ChangePasswordEmployee.aspx" />
+    <Content Include="ChangePasswordCustomer.aspx" />
+    <Content Include="ChangePasswordAdmin.aspx" />
+    <Content Include="DeleteAdmin.aspx" />
+    <Content Include="DeleteCustomer.aspx" />
+    <Content Include="DeleteEmployee.aspx" />
+    <Content Include="DepositWithdrawD.aspx" />
+    <Content Include="DepositWithdrawW.aspx" />
+    <Content Include="Edit InfoCustomer.aspx" />
+    <Content Include="Edit InfoEmployee.aspx" />
+    <Content Include="Edit InfoAdmin.aspx" />
+    <Content Include="RegistrationEmployee.aspx" />
+    <Content Include="RegistrationCustomer.aspx" />
+    <Content Include="RegistrationAdmin.aspx" />
+    <Content Include="SearchAdmin.aspx" />
+    <Content Include="SearchCustomer.aspx" />
+    <Content Include="SearchEmployee.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ABank Status.aspx.cs">
+      <DependentUpon>ABank Status.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ABank Status.aspx.designer.cs">
+      <DependentUpon>ABank Status.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aloanaccept.aspx.cs">
+      <DependentUpon>Aloanaccept.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aloanaccept.aspx.designer.cs">
+      <DependentUpon>Aloanaccept.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AloanReq.aspx.cs">
+      <DependentUpon>AloanReq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AloanReq.aspx.designer.cs">
+      <DependentUpon>AloanReq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Change Password.Master.cs">
+      <DependentUpon>Change Password.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Change Password.Master.designer.cs">
+      <DependentUpon>Change Password.Master</DependentUpon>
+    </Compile>
     <Compile Include="CustomControls\CommonBtns.ascx.cs">
       <DependentUpon>CommonBtns.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -90,13 +142,43 @@
     <Compile Include="CustomControls\HomeBtn.ascx.designer.cs">
       <DependentUpon>HomeBtn.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="Delete.Master.cs">
+      <DependentUpon>Delete.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="Delete.Master.designer.cs">
+      <DependentUpon>Delete.Master</DependentUpon>
     </Compile>
+    <Compile Include="DepositWithdraw.Master.cs">
+      <DependentUpon>DepositWithdraw.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DepositWithdraw.Master.designer.cs">
+      <DependentUpon>DepositWithdraw.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AEdit Bank Status.aspx.cs">
+      <DependentUpon>AEdit Bank Status.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AEdit Bank Status.aspx.designer.cs">
+      <DependentUpon>AEdit Bank Status.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edit Info.Master.cs">
+      <DependentUpon>Edit Info.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edit Info.Master.designer.cs">
+      <DependentUpon>Edit Info.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AHome.aspx.cs">
+      <DependentUpon>AHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AHome.aspx.designer.cs">
+      <DependentUpon>AHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="handleDB.cs" />
+    <Compile Include="handleFunc.cs" />
     <Compile Include="Info.Master.cs">
       <DependentUpon>Info.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -105,6 +187,27 @@
       <DependentUpon>Info.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration.Master.cs">
+      <DependentUpon>Registration.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration.Master.designer.cs">
+      <DependentUpon>Registration.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AReport.aspx.cs">
+      <DependentUpon>AReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AReport.aspx.designer.cs">
+      <DependentUpon>AReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search.Master.cs">
+      <DependentUpon>Search.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search.Master.designer.cs">
+      <DependentUpon>Search.Master</DependentUpon>
+    </Compile>
     <Compile Include="SignIn.Master.cs">
       <DependentUpon>SignIn.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -112,73 +215,205 @@
     <Compile Include="SignIn.Master.designer.cs">
       <DependentUpon>SignIn.Master</DependentUpon>
     </Compile>
-    <Compile Include="CustomerLogIn.aspx.cs">
-      <DependentUpon>CustomerLogIn.aspx</DependentUpon>
+    <Compile Include="SignInCustomer.aspx.cs">
+      <DependentUpon>SignInCustomer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CustomerLogIn.aspx.designer.cs">
-      <DependentUpon>CustomerLogIn.aspx</DependentUpon>
+    <Compile Include="SignInCustomer.aspx.designer.cs">
+      <DependentUpon>SignInCustomer.aspx</DependentUpon>
     </Compile>
-    <Compile Include="EmployeeLogIn.aspx.cs">
-      <DependentUpon>EmployeeLogIn.aspx</DependentUpon>
+    <Compile Include="SignInEmployee.aspx.cs">
+      <DependentUpon>SignInEmployee.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="EmployeeLogIn.aspx.designer.cs">
-      <DependentUpon>EmployeeLogIn.aspx</DependentUpon>
+    <Compile Include="SignInEmployee.aspx.designer.cs">
+      <DependentUpon>SignInEmployee.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminLogIn.aspx.cs">
-      <DependentUpon>AdminLogIn.aspx</DependentUpon>
+    <Compile Include="SignInAdmin.aspx.cs">
+      <DependentUpon>SignInAdmin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminLogIn.aspx.designer.cs">
-      <DependentUpon>AdminLogIn.aspx</DependentUpon>
+    <Compile Include="SignInAdmin.aspx.designer.cs">
+      <DependentUpon>SignInAdmin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminInfo.aspx.cs">
-      <DependentUpon>AdminInfo.aspx</DependentUpon>
+    <Compile Include="InfoAdmin.aspx.cs">
+      <DependentUpon>InfoAdmin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminInfo.aspx.designer.cs">
-      <DependentUpon>AdminInfo.aspx</DependentUpon>
+    <Compile Include="InfoAdmin.aspx.designer.cs">
+      <DependentUpon>InfoAdmin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="EmployeeInfo.aspx.cs">
-      <DependentUpon>EmployeeInfo.aspx</DependentUpon>
+    <Compile Include="InfoEmployee.aspx.cs">
+      <DependentUpon>InfoEmployee.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="EmployeeInfo.aspx.designer.cs">
-      <DependentUpon>EmployeeInfo.aspx</DependentUpon>
+    <Compile Include="InfoEmployee.aspx.designer.cs">
+      <DependentUpon>InfoEmployee.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CustomerInfo.aspx.cs">
-      <DependentUpon>CustomerInfo.aspx</DependentUpon>
+    <Compile Include="InfoCustomer.aspx.cs">
+      <DependentUpon>InfoCustomer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CustomerInfo.aspx.designer.cs">
-      <DependentUpon>CustomerInfo.aspx</DependentUpon>
+    <Compile Include="InfoCustomer.aspx.designer.cs">
+      <DependentUpon>InfoCustomer.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CustomerSearchInfo.aspx.cs">
-      <DependentUpon>CustomerSearchInfo.aspx</DependentUpon>
+    <Compile Include="InfoSearchCustomer.aspx.cs">
+      <DependentUpon>InfoSearchCustomer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CustomerSearchInfo.aspx.designer.cs">
-      <DependentUpon>CustomerSearchInfo.aspx</DependentUpon>
+    <Compile Include="InfoSearchCustomer.aspx.designer.cs">
+      <DependentUpon>InfoSearchCustomer.aspx</DependentUpon>
     </Compile>
-    <Compile Include="EmployeeSearchInfo.aspx.cs">
-      <DependentUpon>EmployeeSearchInfo.aspx</DependentUpon>
+    <Compile Include="InfoSearchEmployee.aspx.cs">
+      <DependentUpon>InfoSearchEmployee.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="EmployeeSearchInfo.aspx.designer.cs">
-      <DependentUpon>EmployeeSearchInfo.aspx</DependentUpon>
+    <Compile Include="InfoSearchEmployee.aspx.designer.cs">
+      <DependentUpon>InfoSearchEmployee.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminSearchInfo.aspx.cs">
-      <DependentUpon>AdminSearchInfo.aspx</DependentUpon>
+    <Compile Include="InfoSearchAdmin.aspx.cs">
+      <DependentUpon>InfoSearchAdmin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminSearchInfo.aspx.designer.cs">
-      <DependentUpon>AdminSearchInfo.aspx</DependentUpon>
+    <Compile Include="InfoSearchAdmin.aspx.designer.cs">
+      <DependentUpon>InfoSearchAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ATransfer.aspx.cs">
+      <DependentUpon>ATransfer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ATransfer.aspx.designer.cs">
+      <DependentUpon>ATransfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePasswordEmployee.aspx.cs">
+      <DependentUpon>ChangePasswordEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangePasswordEmployee.aspx.designer.cs">
+      <DependentUpon>ChangePasswordEmployee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePasswordCustomer.aspx.cs">
+      <DependentUpon>ChangePasswordCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangePasswordCustomer.aspx.designer.cs">
+      <DependentUpon>ChangePasswordCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePasswordAdmin.aspx.cs">
+      <DependentUpon>ChangePasswordAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangePasswordAdmin.aspx.designer.cs">
+      <DependentUpon>ChangePasswordAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteAdmin.aspx.cs">
+      <DependentUpon>DeleteAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteAdmin.aspx.designer.cs">
+      <DependentUpon>DeleteAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteCustomer.aspx.cs">
+      <DependentUpon>DeleteCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteCustomer.aspx.designer.cs">
+      <DependentUpon>DeleteCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteEmployee.aspx.cs">
+      <DependentUpon>DeleteEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteEmployee.aspx.designer.cs">
+      <DependentUpon>DeleteEmployee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DepositWithdrawD.aspx.cs">
+      <DependentUpon>DepositWithdrawD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DepositWithdrawD.aspx.designer.cs">
+      <DependentUpon>DepositWithdrawD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DepositWithdrawW.aspx.cs">
+      <DependentUpon>DepositWithdrawW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DepositWithdrawW.aspx.designer.cs">
+      <DependentUpon>DepositWithdrawW.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edit InfoCustomer.aspx.cs">
+      <DependentUpon>Edit InfoCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edit InfoCustomer.aspx.designer.cs">
+      <DependentUpon>Edit InfoCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edit InfoEmployee.aspx.cs">
+      <DependentUpon>Edit InfoEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edit InfoEmployee.aspx.designer.cs">
+      <DependentUpon>Edit InfoEmployee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edit InfoAdmin.aspx.cs">
+      <DependentUpon>Edit InfoAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edit InfoAdmin.aspx.designer.cs">
+      <DependentUpon>Edit InfoAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrationEmployee.aspx.cs">
+      <DependentUpon>RegistrationEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrationEmployee.aspx.designer.cs">
+      <DependentUpon>RegistrationEmployee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrationCustomer.aspx.cs">
+      <DependentUpon>RegistrationCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrationCustomer.aspx.designer.cs">
+      <DependentUpon>RegistrationCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrationAdmin.aspx.cs">
+      <DependentUpon>RegistrationAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrationAdmin.aspx.designer.cs">
+      <DependentUpon>RegistrationAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchAdmin.aspx.cs">
+      <DependentUpon>SearchAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchAdmin.aspx.designer.cs">
+      <DependentUpon>SearchAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchCustomer.aspx.cs">
+      <DependentUpon>SearchCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchCustomer.aspx.designer.cs">
+      <DependentUpon>SearchCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchEmployee.aspx.cs">
+      <DependentUpon>SearchEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchEmployee.aspx.designer.cs">
+      <DependentUpon>SearchEmployee.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="SignIn.Master" />
     <Content Include="Info.Master" />
+    <Content Include="Registration.Master" />
+    <Content Include="Edit Info.Master" />
+    <Content Include="Change Password.Master" />
+    <Content Include="Search.Master" />
+    <Content Include="DepositWithdraw.Master" />
+    <Content Include="Delete.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
