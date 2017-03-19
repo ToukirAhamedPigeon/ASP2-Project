@@ -12,8 +12,7 @@
     <h1>
         Transfer
     </h1>
-        <Pigeon:HomeBtn runat="server" ID="HomeBtn"/>
-        <Pigeon:CommonBtns runat="server" ID="CommonBtn"/>
+       
         <br />
         <table>
             <tr>
@@ -42,7 +41,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="ButtonConf" runat="server" Text="Confirm" />
+                    <asp:Button ID="ButtonConf" runat="server" Text="Confirm" OnClick="ButtonConf_Click" />
                 </td>
                 <td>
                     <asp:Button ID="ButtonCancel" runat="server" Text="Cancel" />

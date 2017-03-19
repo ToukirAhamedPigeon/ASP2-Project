@@ -1,2 +1,0 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="HomeBtn.ascx.cs" Inherits="Bank.HomeBtn" %>
-<asp:ImageButton ID="ImageButtonHome" runat="server" ImageUrl="~/Images/HomeBtn.png" OnClick="ImageButtonHome_Click" />

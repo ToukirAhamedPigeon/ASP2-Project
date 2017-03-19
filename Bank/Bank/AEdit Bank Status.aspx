@@ -10,8 +10,7 @@
     <form id="form1" runat="server">
     <div>
     <h1>Edit Bank Status</h1>
-        <Pigeon:HomeBtn runat="server" ID="HomeBtn"/>
-        <Pigeon:CommonBtns runat="server" ID="CommonBtn"/>
+      
         <br />
         <br />
         <table>
@@ -37,7 +36,7 @@
             </tr>
             <tr>
                  <td>
-                    <asp:Button ID="ButtonSubmit" runat="server" Text="Submit" />
+                    <asp:Button ID="ButtonSubmit" runat="server" Text="Submit" OnClick="ButtonSubmit_Click" />
                 </td>
             </tr>
         </table>

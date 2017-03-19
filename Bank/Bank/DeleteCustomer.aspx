@@ -7,10 +7,10 @@
      <table>
             <tr>
                 <td>
-                    <asp:Button ID="ButtonDelete" runat="server" Text="Delete" />
+                    <asp:Button ID="ButtonDelete" runat="server" Text="Delete" OnClick="ButtonDelete_Click" />
                 </td>
                 <td>
-                    <asp:Button ID="ButtonCancel" runat="server" Text="Cancel" />
+                    <asp:Button ID="ButtonCancel" runat="server" Text="Cancel" OnClick="ButtonCancel_Click" />
                 </td>
             </tr>
         </table>

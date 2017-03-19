@@ -5,10 +5,6 @@
     <h1 class="mid">Customer</h1>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
-    <asp:DropDownList ID="DropDownListAction" runat="server">
-         <asp:ListItem>Select Action</asp:ListItem>
-        <asp:ListItem>Money Transfer</asp:ListItem>
-    </asp:DropDownList>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
      <table>
@@ -108,14 +104,6 @@
                 </td>
                  <td>
                       <asp:Label ID="LabelNomEmail" runat="server" Text="Label"></asp:Label><br />
-                </td>
-            </tr>
-             <tr>
-                <td>
-                     <asp:Label ID="Label13" runat="server" Text="Nominy Join: "></asp:Label>
-                </td>
-                 <td>
-                      <asp:Label ID="LabelNomJoin" runat="server" Text="Label"></asp:Label><br />
                 </td>
             </tr>
         </table>

@@ -10,8 +10,7 @@
     <form id="form1" runat="server">
     <div>
     <h1>Result</h1>
-        <Pigeon:HomeBtn runat="server" ID="HomeBtn"/>
-        <Pigeon:CommonBtns runat="server" ID="CommonBtn"/>
+       
         <br />
         <asp:GridView ID="GridViewResult" runat="server"></asp:GridView>
     </div>

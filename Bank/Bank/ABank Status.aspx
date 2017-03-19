@@ -5,13 +5,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="CSS/PigeonStyle.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div class="mid">
         <h1>Bank Status</h1>
-        <Pigeon:HomeBtn runat="server" ID="HomeBtn"/>
-        <Pigeon:CommonBtns runat="server" ID="CommonBtn"/>
         <br />
         <br />
         <table>

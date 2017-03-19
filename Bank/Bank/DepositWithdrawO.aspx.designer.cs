@@ -7,63 +7,45 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Bank.CustomControls {
+namespace Bank {
     
     
-    public partial class CommonBtns {
+    public partial class WebForm27 {
         
         /// <summary>
-        /// ImageButtonInfo control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButtonInfo;
+        protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// ImageButtonEdit control.
+        /// TextBoxOther control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButtonEdit;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxOther;
         
         /// <summary>
-        /// ImageButtonReport control.
+        /// ButtonConfirm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButtonReport;
+        protected global::System.Web.UI.WebControls.Button ButtonConfirm;
         
         /// <summary>
-        /// ImageButtonHelp control.
+        /// ButtonCancel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButtonHelp;
-        
-        /// <summary>
-        /// ImageButtonLogOut control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButtonLogOut;
-        
-        /// <summary>
-        /// ImageProfile control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImageProfile;
+        protected global::System.Web.UI.WebControls.Button ButtonCancel;
     }
 }

@@ -28,10 +28,10 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="ButtonEditEmp" runat="server" Text="Edit" />
+                    <asp:Button ID="ButtonEditEmp" runat="server" Text="Edit" OnClick="ButtonEditEmp_Click" />
                 </td>
                 <td>
-                    <asp:Button ID="ButtonCancelEmp" runat="server" Text="Cancel" />
+                    <asp:Button ID="ButtonCancelEmp" runat="server" Text="Cancel" OnClick="ButtonCancelEmp_Click" />
                 </td>
             </tr>
         </table>

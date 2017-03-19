@@ -13,15 +13,6 @@ namespace Bank {
     public partial class WebForm9 {
         
         /// <summary>
-        /// DropDownListAction control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownListAction;
-        
-        /// <summary>
         /// ImageProfile control.
         /// </summary>
         /// <remarks>
@@ -56,5 +47,14 @@ namespace Bank {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label30;
+        
+        /// <summary>
+        /// LabelAbout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelAbout;
     }
 }

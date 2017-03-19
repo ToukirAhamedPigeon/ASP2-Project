@@ -14,8 +14,7 @@
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
-        <Pigeon:HomeBtn runat="server" ID="HomeBtn"/>
-        <Pigeon:CommonBtns runat="server" ID="CommonBtn"/>
+       
         <br />
         <table>
             <tr>

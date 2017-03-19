@@ -100,13 +100,13 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="ButtonEdit" runat="server" Text="Edit" />
+                    <asp:Button ID="ButtonEdit" runat="server" Text="Edit" OnClick="ButtonEdit_Click" />
                 </td>
                 <td>
-                     <asp:Button ID="ButtonNom" runat="server" Text="Owner Change" />
+                     <asp:Button ID="ButtonNom" runat="server" Text="Owner Change" OnClick="ButtonNom_Click" />
                 </td>
                 <td> 
-                   <asp:Button ID="ButtonCancel" runat="server" Text="Cancel" />
+                   <asp:Button ID="ButtonCancel" runat="server" Text="Cancel" OnClick="ButtonCancel_Click" />
                 </td>
             </tr>
         </table>

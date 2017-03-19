@@ -5,12 +5,7 @@
      <h1 class="mid">Employee</h1>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
-    <asp:DropDownList ID="DropDownListAction" runat="server">
-        <asp:ListItem>Select Action</asp:ListItem>
-        <asp:ListItem>Search Customer</asp:ListItem>
-        <asp:ListItem>Search Admin</asp:ListItem>
-        <asp:ListItem>Add New Customer</asp:ListItem>
-    </asp:DropDownList>
+   
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <table>
@@ -28,22 +23,6 @@
             </td>
             <td>
                  <asp:Label ID="LabelSalary" runat="server" Text="Label"></asp:Label>
-            </td>
-        </tr>
-         <tr>
-            <td>
-                <asp:Label ID="Label23" runat="server" Text="Time: "></asp:Label>
-            </td>
-            <td>
-                 <asp:Label ID="LabelTime" runat="server" Text="Label"></asp:Label>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="Label30" runat="server" Text="About: "></asp:Label>
-            </td>
-            <td>
-                 <blockquote id="bqAbout">About</blockquote>
             </td>
         </tr>
         <tr>

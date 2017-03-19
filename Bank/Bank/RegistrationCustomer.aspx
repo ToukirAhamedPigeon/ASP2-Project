@@ -38,6 +38,9 @@
                 <td>
                     <asp:TextBox ID="TextBoxNomDOB" runat="server"></asp:TextBox>
                 </td>
+                <td>
+                    <asp:Calendar ID="CalendarNominy" runat="server" OnSelectionChanged="CalendarNominy_SelectionChanged"></asp:Calendar>
+                </td>
             </tr>
              <tr>
                 <td>
@@ -49,7 +52,7 @@
             </tr>
              <tr>
                 <td>
-                    <asp:Label ID="Label16" runat="server" Text="Nominy SGender: "></asp:Label>
+                    <asp:Label ID="Label16" runat="server" Text="Nominy Gender: "></asp:Label>
                 </td>
                 <td>
                     <asp:RadioButtonList ID="RadioButtonListNomGender" runat="server">
@@ -113,13 +116,10 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="ButtonEdit" runat="server" Text="Edit" />
-                </td>
-                <td>
-                     <asp:Button ID="ButtonNom" runat="server" Text="Owner Change" />
+                    <asp:Button ID="ButtonEdit" runat="server" Text="Add" OnClick="ButtonEdit_Click" />
                 </td>
                 <td> 
-                   <asp:Button ID="ButtonCancel" runat="server" Text="Cancel" />
+                   <asp:Button ID="ButtonCancel" runat="server" Text="Cancel" OnClick="ButtonCancel_Click" />
                 </td>
             </tr>
         </table>

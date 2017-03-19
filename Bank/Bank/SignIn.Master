@@ -23,10 +23,9 @@
                      <h1>Log In</h1>
                 </td>
                 <td>
-                   <Pigeon:HomeBtn runat="server" ID="HomeBtn"/>
+                  
                 </td>
             </tr>
-            <br />
         </table>
             <table>
                 <tr>

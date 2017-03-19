@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
 namespace Bank
 {
     public partial class Home : System.Web.UI.Page
@@ -17,7 +19,7 @@ namespace Bank
         private void go(string a)
         {
             Session["UserType"] = a;
-            Response.Redirect("~/"+a+"LogIn.aspx");
+            Response.Redirect("~/SignIn"+a+".aspx");
         }
         protected void DropDownListUser_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -25,7 +27,7 @@ namespace Bank
             {
                 go(DropDownListUser.SelectedValue);
                 //Session["UserType"] = "Customer";
-                //Response.Redirect("~/CustomerLogIn.aspx");
+               // Response.Redirect("~/CustomerLogIn.aspx");
             }
             else if (DropDownListUser.SelectedValue == "Employee")
             {

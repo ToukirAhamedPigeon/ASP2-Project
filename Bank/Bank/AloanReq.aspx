@@ -10,8 +10,7 @@
     <form id="form1" runat="server">
     <div>
         <h1>Loan Request</h1>
-        <Pigeon:HomeBtn runat="server" ID="HomeBtn"/>
-        <Pigeon:CommonBtns runat="server" ID="CommonBtn"/>
+      
         <br />
         <asp:Table ID="Table1" runat="server">
             <asp:TableRow>

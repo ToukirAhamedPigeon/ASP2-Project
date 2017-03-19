@@ -10,7 +10,8 @@
                     <asp:Label ID="Label2" runat="server" Text="Search Employee"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="TextBoxSearchEmployee" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBoxSearchEmployee" runat="server" AutoPostBack="True"></asp:TextBox>
+                    <asp:Button ID="ButtonEmployee" runat="server" Text="Search" OnClick="ButtonEmployee_Click" />
                 </td>
             </tr>
             <tr>

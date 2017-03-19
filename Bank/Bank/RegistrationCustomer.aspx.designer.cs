@@ -67,6 +67,15 @@ namespace Bank {
         protected global::System.Web.UI.WebControls.TextBox TextBoxNomDOB;
         
         /// <summary>
+        /// CalendarNominy control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Calendar CalendarNominy;
+        
+        /// <summary>
         /// Label14 control.
         /// </summary>
         /// <remarks>
@@ -218,15 +227,6 @@ namespace Bank {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ButtonEdit;
-        
-        /// <summary>
-        /// ButtonNom control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonNom;
         
         /// <summary>
         /// ButtonCancel control.

@@ -61,8 +61,6 @@
     <Content Include="Aloanaccept.aspx" />
     <Content Include="AloanReq.aspx" />
     <Content Include="CSS\PigeonStyle.css" />
-    <Content Include="CustomControls\CommonBtns.ascx" />
-    <Content Include="CustomControls\HomeBtn.ascx" />
     <Content Include="AEdit Bank Status.aspx" />
     <Content Include="AHome.aspx" />
     <Content Include="Images\HomeBtn.png" />
@@ -98,6 +96,7 @@
     <Content Include="SearchAdmin.aspx" />
     <Content Include="SearchCustomer.aspx" />
     <Content Include="SearchEmployee.aspx" />
+    <Content Include="DepositWithdrawO.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ABank Status.aspx.cs">
@@ -127,20 +126,6 @@
     </Compile>
     <Compile Include="Change Password.Master.designer.cs">
       <DependentUpon>Change Password.Master</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\CommonBtns.ascx.cs">
-      <DependentUpon>CommonBtns.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CustomControls\CommonBtns.ascx.designer.cs">
-      <DependentUpon>CommonBtns.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\HomeBtn.ascx.cs">
-      <DependentUpon>HomeBtn.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CustomControls\HomeBtn.ascx.designer.cs">
-      <DependentUpon>HomeBtn.ascx</DependentUpon>
     </Compile>
     <Compile Include="Delete.Master.cs">
       <DependentUpon>Delete.Master</DependentUpon>
@@ -177,8 +162,6 @@
     <Compile Include="AHome.aspx.designer.cs">
       <DependentUpon>AHome.aspx</DependentUpon>
     </Compile>
-    <Compile Include="handleDB.cs" />
-    <Compile Include="handleFunc.cs" />
     <Compile Include="Info.Master.cs">
       <DependentUpon>Info.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -404,6 +387,13 @@
     <Compile Include="SearchEmployee.aspx.designer.cs">
       <DependentUpon>SearchEmployee.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DepositWithdrawO.aspx.cs">
+      <DependentUpon>DepositWithdrawO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DepositWithdrawO.aspx.designer.cs">
+      <DependentUpon>DepositWithdrawO.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="SignIn.Master" />
@@ -420,6 +410,10 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CustomControls\" />
+    <Folder Include="Images\ProPic\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

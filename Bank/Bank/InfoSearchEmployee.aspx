@@ -5,15 +5,7 @@
       <h1 class="mid">Search</h1>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
-     <asp:DropDownList ID="DropDownListAction" runat="server">
-       <asp:ListItem>Select Action</asp:ListItem>
-       <asp:ListItem>Money Transfer</asp:ListItem>
-       <asp:ListItem>Money Deposit</asp:ListItem>
-       <asp:ListItem>Money Withdraw</asp:ListItem>
-       <asp:ListItem>Loan Request</asp:ListItem>
-       <asp:ListItem>Edit Employee</asp:ListItem>
-       <asp:ListItem>Delete Employee</asp:ListItem>
-    </asp:DropDownList>
+     
     <asp:Image ID="ImageProfile" CssClass="mid" runat="server" Height="150px" Width="150px" ImageAlign="Middle" ImageUrl="~/Images/profile-placeholder.png" /><br />
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">

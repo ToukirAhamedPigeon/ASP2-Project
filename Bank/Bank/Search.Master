@@ -14,8 +14,6 @@
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
-        <Pigeon:HomeBtn runat="server" ID="HomeBtn"/>
-        <Pigeon:CommonBtns runat="server" ID="CommonBtn"/>
         <br />
         <table>
             <tr>
@@ -23,7 +21,8 @@
                     <asp:Label ID="Label1" runat="server" Text="Search Customer"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="TextBoxSearchCust" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBoxSearchCust" runat="server" AutoPostBack="True" OnTextChanged="TextBoxSearchCust_TextChanged"></asp:TextBox>
+                    <asp:Button ID="ButtonCustomer" runat="server" Text="Search" OnClick="ButtonCustomer_Click" />
                 </td>
             </tr>
             <tr>
@@ -39,7 +38,8 @@
                     <asp:Label ID="Label3" runat="server" Text="Search Admin"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="TextBoxSearchAdmin" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBoxSearchAdmin" runat="server" AutoPostBack="True"></asp:TextBox>
+                    <asp:Button ID="ButtonAdmin" runat="server" Text="Search" OnClick="ButtonAdmin_Click" />
                 </td>
             </tr>
             <tr>
