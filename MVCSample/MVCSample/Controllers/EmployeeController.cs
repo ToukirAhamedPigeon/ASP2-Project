@@ -13,7 +13,7 @@ namespace MVCSample.Controllers
         public ActionResult Index(int id)
         {
             EmployeeContext employeeContext = new EmployeeContext();
-            Employee employee= employeeContext.Employees.Single(emp => emp.Employee_ID == id);
+            Employee employee= employeeContext.Employees.Single(emp => emp.Id == id);
             return View(employee);
         }
     }

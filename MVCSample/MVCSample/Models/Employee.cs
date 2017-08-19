@@ -10,9 +10,9 @@ namespace MVCSample.Models
     [Table("Employees")]
     public class Employee
     {
-        [Display(Name ="ID")]
+        //[Display(Name ="ID")]
         [Key]
-        public int Employee_ID { get; set; }
+        public int Id { get; set; }
         [Display(Name ="Name")]
         public string Employee_Name { get; set; }
         [Display(Name = "Salary")]

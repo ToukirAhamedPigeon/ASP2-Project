@@ -8,43 +8,26 @@
 
 <div>
     <h4>Employee</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Employee_ID)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Employee_ID)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Employee_Name)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Employee_Name)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Employee_Salary)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Employee_Salary)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Employee_Department)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Employee_Department)
-        </dd>
-
-    </dl>
+   <table>
+       <tr>
+           <td>
+               <b>ID</b>
+           </td>
+           <td>
+               @Model.Employee_ID
+           </td>
+       </tr>
+       <tr>
+           <td><b>Name</b></td>
+           <td>@Model.Employee_Name</td>
+       </tr>
+       <tr>
+           <td><b>Salary</b></td>
+           <td>@Model.Employee_Salary</td>
+       </tr>
+       <tr>
+           <td><b>Department ID</b></td>
+           <td>@Model.Employee_Department</td>
+       </tr>
+   </table>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
